@@ -209,11 +209,31 @@ footer:before {
     flex-direction: row-reverse;
 }
 
+.showCase1 .img {
+    background-image: url(../img/case1.png);
+    height: 556px;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+
 .slider img {
     background-size: cover;
     width: 100%;
     height: 556px;
     object-fit: cover;
+}
+
+.slider .contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.slider .contain div {
+    margin: 25px;
 }
 
 .slider .back img {
@@ -230,18 +250,24 @@ footer:before {
     background: white;
     padding: 10px 16px;
     padding-bottom: 5px;
-    position: absolute;
-    margin-top: 250px; 
-    margin-left: 20px;
+    width: 10px;
+    cursor: pointer;
+}
+
+.slider .back:hover {
+    background: #e3e3e3;
 }
 
 .slider .next {
     background: white;
     padding: 10px 16px;
     padding-bottom: 5px;
-    position: absolute;
-    margin-top: 250px; 
-    margin-left: 1150px;
+    width: 10px;
+    cursor: pointer;
+}
+
+.slider .next:hover {
+    background: #e3e3e3;
 }
 
 .showCase1 {
@@ -260,6 +286,11 @@ footer:before {
 
 .showCase3 {
     height: 500px;
+}
+
+.gallery {
+    margin-top: -325px;
+    margin-left: 150px;
 }
 
 .container1 {
